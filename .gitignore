@@ -1,0 +1,20 @@
+# environments and downloaded models (scripts/setup.py recreates them)
+.venvs/
+models/
+vendor/
+.venv*/
+
+# runtime data: uploaded people, results, logs, pids
+data/
+
+# local config
+.env
+
+# tooling
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# user plugins (may contain credentials)
+plugins/*
+!plugins/README.md

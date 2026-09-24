@@ -1,0 +1,12 @@
+# Try-on service (FASHN VTON v1.5 + web API). torch/torchvision are installed separately by scripts/setup.py
+# because the right wheel depends on the GPU (CUDA 12.4 wheels, or CPU-only).
+fastapi==0.141.1
+uvicorn==0.53.0
+python-multipart==0.0.32
+httpx==0.28.1
+pydantic==2.13.5
+pillow==12.3.0
+numpy>=2.0,<3
+opencv-python>=4.10
+huggingface_hub>=1.0
+fashn-vton @ git+https://github.com/fashn-AI/fashn-vton-1.5.git@7c0f10af3f91ad4048fe9729c470a13ef905d25a

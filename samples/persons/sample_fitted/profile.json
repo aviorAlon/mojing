@@ -1,0 +1,163 @@
+{
+  "id": "sample_fitted",
+  "created_at": "2026-09-24T07:26:26+00:00",
+  "updated_at": "2026-09-24T07:26:26+00:00",
+  "version": 1,
+  "views": {
+    "front": "front.jpg",
+    "side": "side.jpg",
+    "back": "back.jpg"
+  },
+  "photo_checks": {
+    "front": {
+      "view": "front",
+      "passed": true,
+      "blocking": [],
+      "warnings": [],
+      "metrics": {
+        "sharpness": 169.9,
+        "people": 1,
+        "person_height_ratio": 0.933,
+        "face_ratio": 0.485,
+        "shoulder_span": 0.17,
+        "detected_view": "front",
+        "shin_skin_ratio": 1.0,
+        "arm_skin_ratio": 0.1069,
+        "hip_width_ratio": 0.208,
+        "leg_ratio": 0.45,
+        "shoulder_ratio": 0.17,
+        "top_color": [
+          180,
+          182,
+          189
+        ]
+      }
+    },
+    "side": {
+      "view": "side",
+      "passed": true,
+      "blocking": [],
+      "warnings": [],
+      "metrics": {
+        "sharpness": 118.8,
+        "people": 1,
+        "person_height_ratio": 0.904,
+        "face_ratio": 0.217,
+        "shoulder_span": 0.016,
+        "detected_view": "side",
+        "shin_skin_ratio": 1.0,
+        "arm_skin_ratio": 0.0955,
+        "hip_width_ratio": 0.15,
+        "leg_ratio": 0.462,
+        "shoulder_ratio": 0.016,
+        "top_color": [
+          185,
+          187,
+          193
+        ]
+      }
+    },
+    "back": {
+      "view": "back",
+      "passed": true,
+      "blocking": [],
+      "warnings": [],
+      "metrics": {
+        "sharpness": 162.4,
+        "people": 1,
+        "person_height_ratio": 0.926,
+        "face_ratio": 0.056,
+        "shoulder_span": 0.171,
+        "detected_view": "back",
+        "shin_skin_ratio": 1.0,
+        "arm_skin_ratio": 0.1093,
+        "hip_width_ratio": 0.203,
+        "leg_ratio": 0.473,
+        "shoulder_ratio": 0.171,
+        "top_color": [
+          178,
+          180,
+          189
+        ]
+      }
+    }
+  },
+  "profile": {
+    "gender": {
+      "value": "female",
+      "source": "user_input",
+      "confidence": null,
+      "note": null
+    },
+    "height_cm": {
+      "value": 162.0,
+      "source": "user_input",
+      "confidence": null,
+      "note": null
+    },
+    "weight_kg": {
+      "value": 60.0,
+      "source": "user_input",
+      "confidence": null,
+      "note": null
+    },
+    "chest_cm": {
+      "value": 90.0,
+      "source": "user_input",
+      "confidence": null,
+      "note": null
+    },
+    "waist_cm": {
+      "value": 74.0,
+      "source": "user_input",
+      "confidence": null,
+      "note": null
+    },
+    "hip_cm": {
+      "value": 100.0,
+      "source": "user_input",
+      "confidence": null,
+      "note": null
+    },
+    "shoulder_cm": {
+      "value": 37.0,
+      "source": "user_input",
+      "confidence": null,
+      "note": null
+    },
+    "usual_top_size": {
+      "value": "M",
+      "source": "user_input",
+      "confidence": null,
+      "note": null
+    },
+    "usual_bottom_size": {
+      "value": "28",
+      "source": "user_input",
+      "confidence": null,
+      "note": null
+    }
+  },
+  "measured": {
+    "shoulder_cm": {
+      "value": 27.5,
+      "source": "measured",
+      "confidence": 0.6,
+      "note": "肩关节间距，比量体肩宽略小"
+    },
+    "hip_width_cm": {
+      "value": 33.7,
+      "source": "measured",
+      "confidence": 0.5,
+      "note": "正面胯部宽度（含衣物）"
+    },
+    "leg_ratio": {
+      "value": 0.45,
+      "source": "measured",
+      "confidence": 0.6,
+      "note": null
+    }
+  },
+  "trust": "trusted",
+  "issues": []
+}

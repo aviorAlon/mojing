@@ -1,0 +1,182 @@
+{
+  "id": "mock_dress_knit_long",
+  "platform": "mock",
+  "item_id": "mock_dress_knit_long",
+  "url": null,
+  "fetched_at": "2026-09-24T07:08:22+00:00",
+  "title": "针织修身长裙 无袖 包臀 气质",
+  "brand": {
+    "value": "MOCK",
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "price": {
+    "value": 259,
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "category_path": [
+    "女装",
+    "连衣裙"
+  ],
+  "category": "dress",
+  "gender": {
+    "value": "female",
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "images": [
+    {
+      "file": "front.jpg",
+      "kind": "flat_lay",
+      "view": "front",
+      "source": "mock"
+    },
+    {
+      "file": "back.jpg",
+      "kind": "flat_lay",
+      "view": "back",
+      "source": "mock"
+    }
+  ],
+  "skus": [
+    {
+      "color": "焦糖色",
+      "size": "S",
+      "stock": 100
+    },
+    {
+      "color": "焦糖色",
+      "size": "M",
+      "stock": 100
+    },
+    {
+      "color": "焦糖色",
+      "size": "L",
+      "stock": 100
+    },
+    {
+      "color": "焦糖色",
+      "size": "XL",
+      "stock": 100
+    }
+  ],
+  "attributes": {
+    "material": {
+      "value": "粘纤60% 锦纶40%",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "thickness": {
+      "value": "适中",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "stretch": {
+      "value": "高弹",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "fit": {
+      "value": "修身",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "length_type": {
+      "value": "长款",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "sleeve": {
+      "value": "无袖",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "neckline": {
+      "value": "圆领",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "season": {
+      "value": "春秋",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "style": {
+      "value": "气质",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    }
+  },
+  "size_chart": {
+    "basis": "garment",
+    "rows": [
+      {
+        "size": "S",
+        "measures": {
+          "length": 122.0,
+          "chest": 76.0,
+          "waist": 60.0,
+          "hip": 82.0
+        }
+      },
+      {
+        "size": "M",
+        "measures": {
+          "length": 124.0,
+          "chest": 80.0,
+          "waist": 64.0,
+          "hip": 86.0
+        }
+      },
+      {
+        "size": "L",
+        "measures": {
+          "length": 126.0,
+          "chest": 84.0,
+          "waist": 68.0,
+          "hip": 90.0
+        }
+      },
+      {
+        "size": "XL",
+        "measures": {
+          "length": 128.0,
+          "chest": 88.0,
+          "waist": 72.0,
+          "hip": 94.0
+        }
+      }
+    ],
+    "source": "mock",
+    "confidence": null
+  },
+  "model_reference": {
+    "height_cm": 170.0,
+    "weight_kg": 50.0,
+    "size": "S",
+    "source": "mock",
+    "confidence": null
+  },
+  "occasions": {
+    "value": "晚宴、正式派对、约会",
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "raw": {
+    "note": "mock listing for testing; not real platform data"
+  }
+}

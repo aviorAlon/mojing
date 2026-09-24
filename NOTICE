@@ -1,0 +1,21 @@
+Laya TryOn
+Copyright 2026 The Laya TryOn contributors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+It depends on the following third-party projects, which are downloaded at setup time and are NOT
+redistributed in this repository. Check each project for its current license terms before redistributing
+or using them commercially.
+
+- FASHN VTON v1.5 (code: https://github.com/fashn-AI/fashn-vton-1.5, Apache-2.0;
+  weights: https://huggingface.co/fashn-ai/fashn-vton-1.5)
+- DWPose ONNX models as packaged by FASHN (https://huggingface.co/fashn-ai/DWPose)
+- FASHN human parser (https://pypi.org/project/fashn-human-parser/)
+- laya decision engine (https://github.com/NandhaKishorM/laya, Apache-2.0;
+  models: https://huggingface.co/convaiinnovations)
+- PyTorch, FastAPI, Pydantic, OpenCV, Pillow, NumPy, ONNX Runtime and other packages listed in requirements/
+
+Bundled sample data
+- samples/persons/*: photos of people who do not exist, generated with an image model for testing.
+- catalog/*: mock e-commerce listings. Product images were generated with an image model; all listing data
+  (prices, attributes, size charts, model references) is fictional and marked source="mock".

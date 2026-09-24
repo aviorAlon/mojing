@@ -1,0 +1,182 @@
+{
+  "id": "mock_dress_floral",
+  "platform": "mock",
+  "item_id": "mock_dress_floral",
+  "url": null,
+  "fetched_at": "2026-09-24T07:08:22+00:00",
+  "title": "法式碎花短袖连衣裙 中长款 收腰",
+  "brand": {
+    "value": "MOCK",
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "price": {
+    "value": 219,
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "category_path": [
+    "女装",
+    "连衣裙"
+  ],
+  "category": "dress",
+  "gender": {
+    "value": "female",
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "images": [
+    {
+      "file": "front.jpg",
+      "kind": "flat_lay",
+      "view": "front",
+      "source": "mock"
+    },
+    {
+      "file": "back.jpg",
+      "kind": "flat_lay",
+      "view": "back",
+      "source": "mock"
+    }
+  ],
+  "skus": [
+    {
+      "color": "蓝色碎花",
+      "size": "S",
+      "stock": 100
+    },
+    {
+      "color": "蓝色碎花",
+      "size": "M",
+      "stock": 100
+    },
+    {
+      "color": "蓝色碎花",
+      "size": "L",
+      "stock": 100
+    },
+    {
+      "color": "蓝色碎花",
+      "size": "XL",
+      "stock": 100
+    }
+  ],
+  "attributes": {
+    "material": {
+      "value": "聚酯纤维100%",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "thickness": {
+      "value": "薄",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "stretch": {
+      "value": "无弹",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "fit": {
+      "value": "收腰",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "length_type": {
+      "value": "中长款",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "sleeve": {
+      "value": "短袖",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "neckline": {
+      "value": "V领",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "season": {
+      "value": "夏季",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "style": {
+      "value": "法式",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    }
+  },
+  "size_chart": {
+    "basis": "garment",
+    "rows": [
+      {
+        "size": "S",
+        "measures": {
+          "length": 112.0,
+          "chest": 88.0,
+          "waist": 68.0,
+          "shoulder": 36.0
+        }
+      },
+      {
+        "size": "M",
+        "measures": {
+          "length": 114.0,
+          "chest": 92.0,
+          "waist": 72.0,
+          "shoulder": 37.0
+        }
+      },
+      {
+        "size": "L",
+        "measures": {
+          "length": 116.0,
+          "chest": 96.0,
+          "waist": 76.0,
+          "shoulder": 38.0
+        }
+      },
+      {
+        "size": "XL",
+        "measures": {
+          "length": 118.0,
+          "chest": 100.0,
+          "waist": 80.0,
+          "shoulder": 39.0
+        }
+      }
+    ],
+    "source": "mock",
+    "confidence": null
+  },
+  "model_reference": {
+    "height_cm": 168.0,
+    "weight_kg": 48.0,
+    "size": "S",
+    "source": "mock",
+    "confidence": null
+  },
+  "occasions": {
+    "value": "约会、度假、下午茶",
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "raw": {
+    "note": "mock listing for testing; not real platform data"
+  }
+}

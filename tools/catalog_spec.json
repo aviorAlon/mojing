@@ -1,0 +1,848 @@
+[
+  {
+    "id": "mock_blazer_beige",
+    "title": "燕麦色西装外套 女 春秋 休闲小西服",
+    "category": "outerwear",
+    "category_path": [
+      "女装",
+      "西装"
+    ],
+    "price": 299,
+    "color": "燕麦色",
+    "occasions": "面试、上班、正式场合",
+    "attributes": {
+      "material": "聚酯纤维70% 粘纤30%",
+      "thickness": "适中",
+      "stretch": "无弹",
+      "fit": "直筒",
+      "length_type": "常规款",
+      "sleeve": "长袖",
+      "neckline": "西装领",
+      "season": "春秋",
+      "style": "通勤"
+    },
+    "size_chart": {
+      "columns": [
+        "length",
+        "chest",
+        "shoulder",
+        "sleeve"
+      ],
+      "rows": {
+        "S": [
+          68.0,
+          98.0,
+          39.0,
+          58.0
+        ],
+        "M": [
+          70.0,
+          102.0,
+          40.0,
+          59.0
+        ],
+        "L": [
+          72.0,
+          106.0,
+          41.0,
+          60.0
+        ],
+        "XL": [
+          74.0,
+          110.0,
+          42.0,
+          61.0
+        ]
+      }
+    },
+    "model_reference": {
+      "height_cm": 167.0,
+      "weight_kg": 48.0,
+      "size": "S"
+    },
+    "front": "燕麦米色长袖西装外套，平驳领，单排两粒扣，两侧有翻盖口袋",
+    "back": "背面平整，中间一道缝线，下摆正常"
+  },
+  {
+    "id": "mock_dress_floral",
+    "title": "法式碎花短袖连衣裙 中长款 收腰",
+    "category": "dress",
+    "category_path": [
+      "女装",
+      "连衣裙"
+    ],
+    "price": 219,
+    "color": "蓝色碎花",
+    "occasions": "约会、度假、下午茶",
+    "attributes": {
+      "material": "聚酯纤维100%",
+      "thickness": "薄",
+      "stretch": "无弹",
+      "fit": "收腰",
+      "length_type": "中长款",
+      "sleeve": "短袖",
+      "neckline": "V领",
+      "season": "夏季",
+      "style": "法式"
+    },
+    "size_chart": {
+      "columns": [
+        "length",
+        "chest",
+        "waist",
+        "shoulder"
+      ],
+      "rows": {
+        "S": [
+          112.0,
+          88.0,
+          68.0,
+          36.0
+        ],
+        "M": [
+          114.0,
+          92.0,
+          72.0,
+          37.0
+        ],
+        "L": [
+          116.0,
+          96.0,
+          76.0,
+          38.0
+        ],
+        "XL": [
+          118.0,
+          100.0,
+          80.0,
+          39.0
+        ]
+      }
+    },
+    "model_reference": {
+      "height_cm": 168.0,
+      "weight_kg": 48.0,
+      "size": "S"
+    },
+    "front": "浅蓝底白色小碎花短袖连衣裙，V领，收腰系带，裙长到小腿中部",
+    "back": "背面有一条隐形拉链和收腰设计，同样的碎花图案"
+  },
+  {
+    "id": "mock_dress_knit_long",
+    "title": "针织修身长裙 无袖 包臀 气质",
+    "category": "dress",
+    "category_path": [
+      "女装",
+      "连衣裙"
+    ],
+    "price": 259,
+    "color": "焦糖色",
+    "occasions": "晚宴、正式派对、约会",
+    "attributes": {
+      "material": "粘纤60% 锦纶40%",
+      "thickness": "适中",
+      "stretch": "高弹",
+      "fit": "修身",
+      "length_type": "长款",
+      "sleeve": "无袖",
+      "neckline": "圆领",
+      "season": "春秋",
+      "style": "气质"
+    },
+    "size_chart": {
+      "columns": [
+        "length",
+        "chest",
+        "waist",
+        "hip"
+      ],
+      "rows": {
+        "S": [
+          122.0,
+          76.0,
+          60.0,
+          82.0
+        ],
+        "M": [
+          124.0,
+          80.0,
+          64.0,
+          86.0
+        ],
+        "L": [
+          126.0,
+          84.0,
+          68.0,
+          90.0
+        ],
+        "XL": [
+          128.0,
+          88.0,
+          72.0,
+          94.0
+        ]
+      }
+    },
+    "model_reference": {
+      "height_cm": 170.0,
+      "weight_kg": 50.0,
+      "size": "S"
+    },
+    "front": "焦糖棕色无袖针织修身长连衣裙，圆领，贴身包臀，裙长到脚踝",
+    "back": "背面同样的焦糖色针织，平整无装饰"
+  },
+  {
+    "id": "mock_dress_shirt_khaki",
+    "title": "卡其色短袖衬衫连衣裙 系带收腰 通勤",
+    "category": "dress",
+    "category_path": [
+      "女装",
+      "连衣裙"
+    ],
+    "price": 199,
+    "color": "卡其色",
+    "occasions": "上班、面试、见家长",
+    "attributes": {
+      "material": "棉70% 聚酯纤维30%",
+      "thickness": "适中",
+      "stretch": "无弹",
+      "fit": "收腰",
+      "length_type": "中长款",
+      "sleeve": "短袖",
+      "neckline": "翻领",
+      "season": "夏季",
+      "style": "通勤"
+    },
+    "size_chart": {
+      "columns": [
+        "length",
+        "chest",
+        "waist",
+        "shoulder"
+      ],
+      "rows": {
+        "S": [
+          105.0,
+          92.0,
+          72.0,
+          37.0
+        ],
+        "M": [
+          107.0,
+          96.0,
+          76.0,
+          38.0
+        ],
+        "L": [
+          109.0,
+          100.0,
+          80.0,
+          39.0
+        ],
+        "XL": [
+          111.0,
+          104.0,
+          84.0,
+          40.0
+        ]
+      }
+    },
+    "model_reference": {
+      "height_cm": 166.0,
+      "weight_kg": 48.0,
+      "size": "S"
+    },
+    "front": "卡其色短袖衬衫式连衣裙，翻领，前面一排纽扣，腰间系带，裙长到膝盖下方",
+    "back": "背面有过肩育克和腰部系带，纯色卡其"
+  },
+  {
+    "id": "mock_hoodie_backprint",
+    "title": "美式复古连帽卫衣 后背大字印花 宽松",
+    "category": "top",
+    "category_path": [
+      "女装",
+      "卫衣"
+    ],
+    "price": 159,
+    "color": "雾霾蓝",
+    "occasions": "街头潮流、运动、周末出游",
+    "attributes": {
+      "material": "棉65% 聚酯纤维35%",
+      "thickness": "加厚",
+      "stretch": "微弹",
+      "fit": "宽松",
+      "length_type": "常规款",
+      "sleeve": "长袖",
+      "neckline": "连帽",
+      "season": "秋冬",
+      "style": "街头"
+    },
+    "size_chart": {
+      "columns": [
+        "length",
+        "chest",
+        "shoulder",
+        "sleeve"
+      ],
+      "rows": {
+        "S": [
+          66.0,
+          116.0,
+          58.0,
+          52.0
+        ],
+        "M": [
+          68.0,
+          120.0,
+          60.0,
+          53.0
+        ],
+        "L": [
+          70.0,
+          124.0,
+          62.0,
+          54.0
+        ],
+        "XL": [
+          72.0,
+          128.0,
+          64.0,
+          55.0
+        ]
+      }
+    },
+    "model_reference": {
+      "height_cm": 168.0,
+      "weight_kg": 50.0,
+      "size": "M"
+    },
+    "front": "雾霾蓝色长袖连帽卫衣，胸前左侧一个小的白色刺绣标志，有袋鼠口袋",
+    "back": "背面印有一大块白色英文字母印花 'SUNDAY CLUB'，占据整个后背，帽子垂在后面"
+  },
+  {
+    "id": "mock_jeans_straight",
+    "title": "高腰直筒牛仔裤 女 显瘦 九分",
+    "category": "pants",
+    "category_path": [
+      "女装",
+      "牛仔裤"
+    ],
+    "price": 169,
+    "color": "浅蓝",
+    "occasions": "日常通勤、逛街、旅行",
+    "attributes": {
+      "material": "棉98% 氨纶2%",
+      "thickness": "适中",
+      "stretch": "微弹",
+      "fit": "直筒",
+      "length_type": "九分",
+      "season": "四季",
+      "style": "休闲"
+    },
+    "size_chart": {
+      "columns": [
+        "length",
+        "waist",
+        "hip"
+      ],
+      "rows": {
+        "25": [
+          94.0,
+          62.0,
+          88.0
+        ],
+        "26": [
+          95.0,
+          65.0,
+          91.0
+        ],
+        "27": [
+          96.0,
+          68.0,
+          94.0
+        ],
+        "28": [
+          97.0,
+          71.0,
+          97.0
+        ],
+        "29": [
+          98.0,
+          74.0,
+          100.0
+        ]
+      }
+    },
+    "model_reference": {
+      "height_cm": 166.0,
+      "weight_kg": 47.0,
+      "size": "26"
+    },
+    "front": "浅蓝色高腰直筒牛仔长裤，金属纽扣，前面两个斜插袋",
+    "back": "背面有两个后贴袋和皮牌，腰头有裤袢"
+  },
+  {
+    "id": "mock_knit_longsleeve",
+    "title": "燕麦色长袖修身针织打底衫 圆领 秋冬",
+    "category": "top",
+    "category_path": [
+      "女装",
+      "针织衫"
+    ],
+    "price": 119,
+    "color": "燕麦色",
+    "occasions": "保暖、秋冬、上班内搭",
+    "attributes": {
+      "material": "粘纤55% 锦纶45%",
+      "thickness": "适中",
+      "stretch": "高弹",
+      "fit": "修身",
+      "length_type": "常规款",
+      "sleeve": "长袖",
+      "neckline": "圆领",
+      "season": "秋冬",
+      "style": "简约"
+    },
+    "size_chart": {
+      "columns": [
+        "length",
+        "chest",
+        "shoulder",
+        "sleeve"
+      ],
+      "rows": {
+        "S": [
+          56.0,
+          80.0,
+          34.0,
+          58.0
+        ],
+        "M": [
+          58.0,
+          84.0,
+          35.0,
+          59.0
+        ],
+        "L": [
+          60.0,
+          88.0,
+          36.0,
+          60.0
+        ],
+        "XL": [
+          62.0,
+          92.0,
+          37.0,
+          61.0
+        ]
+      }
+    },
+    "model_reference": {
+      "height_cm": 166.0,
+      "weight_kg": 47.0,
+      "size": "S"
+    },
+    "front": "燕麦米色长袖修身细针织打底衫，圆领，纯色无图案，袖长到手腕",
+    "back": "背面同样的燕麦色细针织，纯色平整"
+  },
+  {
+    "id": "mock_pants_wide_black",
+    "title": "黑色高腰阔腿西装裤 垂感 显高",
+    "category": "pants",
+    "category_path": [
+      "女装",
+      "休闲裤"
+    ],
+    "price": 159,
+    "color": "黑色",
+    "occasions": "上班、面试、商务通勤",
+    "attributes": {
+      "material": "聚酯纤维80% 粘纤20%",
+      "thickness": "适中",
+      "stretch": "微弹",
+      "fit": "宽松",
+      "length_type": "长裤",
+      "season": "四季",
+      "style": "通勤"
+    },
+    "size_chart": {
+      "columns": [
+        "length",
+        "waist",
+        "hip"
+      ],
+      "rows": {
+        "S": [
+          100.0,
+          64.0,
+          96.0
+        ],
+        "M": [
+          101.0,
+          68.0,
+          100.0
+        ],
+        "L": [
+          102.0,
+          72.0,
+          104.0
+        ],
+        "XL": [
+          103.0,
+          76.0,
+          108.0
+        ]
+      }
+    },
+    "model_reference": {
+      "height_cm": 168.0,
+      "weight_kg": 48.0,
+      "size": "S"
+    },
+    "front": "黑色高腰垂感阔腿西装长裤，前面有一道熨烫中缝，裤长到脚踝",
+    "back": "背面有两个开线后袋，腰头平整"
+  },
+  {
+    "id": "mock_shirt_stripe",
+    "title": "蓝白竖条纹长袖衬衫 女 通勤",
+    "category": "top",
+    "category_path": [
+      "女装",
+      "衬衫"
+    ],
+    "price": 139,
+    "color": "蓝白条纹",
+    "occasions": "上班、面试、商务通勤",
+    "attributes": {
+      "material": "100%棉",
+      "thickness": "薄",
+      "stretch": "无弹",
+      "fit": "直筒",
+      "length_type": "常规款",
+      "sleeve": "长袖",
+      "neckline": "翻领",
+      "season": "春秋",
+      "style": "通勤"
+    },
+    "size_chart": {
+      "columns": [
+        "length",
+        "chest",
+        "shoulder",
+        "sleeve"
+      ],
+      "rows": {
+        "S": [
+          66.0,
+          98.0,
+          38.0,
+          57.0
+        ],
+        "M": [
+          68.0,
+          102.0,
+          39.0,
+          58.0
+        ],
+        "L": [
+          70.0,
+          106.0,
+          40.0,
+          59.0
+        ],
+        "XL": [
+          72.0,
+          110.0,
+          41.0,
+          60.0
+        ]
+      }
+    },
+    "model_reference": {
+      "height_cm": 166.0,
+      "weight_kg": 48.0,
+      "size": "S"
+    },
+    "front": "蓝白细竖条纹长袖衬衫，尖领，前面一排白色纽扣，胸前一个贴袋",
+    "back": "背面有横向的过肩育克拼接和中间一道褶，条纹方向为竖条"
+  },
+  {
+    "id": "mock_shorts_wide",
+    "title": "亚麻阔腿短裤 高腰 休闲",
+    "category": "pants",
+    "category_path": [
+      "女装",
+      "休闲裤"
+    ],
+    "price": 89,
+    "color": "米白色",
+    "occasions": "海边度假、夏天、周末出游",
+    "attributes": {
+      "material": "亚麻55% 棉45%",
+      "thickness": "薄",
+      "stretch": "无弹",
+      "fit": "宽松",
+      "length_type": "短裤",
+      "season": "夏季",
+      "style": "休闲"
+    },
+    "size_chart": {
+      "columns": [
+        "length",
+        "waist",
+        "hip"
+      ],
+      "rows": {
+        "S": [
+          38.0,
+          62.0,
+          100.0
+        ],
+        "M": [
+          39.0,
+          66.0,
+          104.0
+        ],
+        "L": [
+          40.0,
+          70.0,
+          108.0
+        ],
+        "XL": [
+          41.0,
+          74.0,
+          112.0
+        ]
+      }
+    },
+    "model_reference": {
+      "height_cm": 165.0,
+      "weight_kg": 46.0,
+      "size": "S"
+    },
+    "front": "米白色亚麻高腰阔腿短裤，松紧腰带有抽绳，裤长到大腿中部",
+    "back": "背面松紧腰，有一个后贴袋"
+  },
+  {
+    "id": "mock_skirt_pleated",
+    "title": "格纹百褶半身裙 短裙 学院风",
+    "category": "skirt",
+    "category_path": [
+      "女装",
+      "半身裙"
+    ],
+    "price": 99,
+    "color": "深绿格纹",
+    "occasions": "校园、约会、逛街",
+    "attributes": {
+      "material": "聚酯纤维100%",
+      "thickness": "适中",
+      "stretch": "无弹",
+      "fit": "A字",
+      "length_type": "短裙",
+      "season": "春秋",
+      "style": "学院"
+    },
+    "size_chart": {
+      "columns": [
+        "length",
+        "waist"
+      ],
+      "rows": {
+        "S": [
+          42.0,
+          64.0
+        ],
+        "M": [
+          43.0,
+          68.0
+        ],
+        "L": [
+          44.0,
+          72.0
+        ],
+        "XL": [
+          45.0,
+          76.0
+        ]
+      }
+    },
+    "model_reference": {
+      "height_cm": 165.0,
+      "weight_kg": 46.0,
+      "size": "S"
+    },
+    "front": "深绿色和藏蓝格纹百褶短裙，高腰，裙长到大腿中部",
+    "back": "背面同样是格纹百褶，腰头有隐形拉链"
+  },
+  {
+    "id": "mock_skirt_satin_midi",
+    "title": "黑色缎面A字中长半身裙 高腰 垂感",
+    "category": "skirt",
+    "category_path": [
+      "女装",
+      "半身裙"
+    ],
+    "price": 139,
+    "color": "黑色",
+    "occasions": "约会、晚宴、正式场合",
+    "attributes": {
+      "material": "聚酯纤维100%",
+      "thickness": "适中",
+      "stretch": "无弹",
+      "fit": "A字",
+      "length_type": "中长款",
+      "season": "春夏秋",
+      "style": "气质"
+    },
+    "size_chart": {
+      "columns": [
+        "length",
+        "waist"
+      ],
+      "rows": {
+        "S": [
+          74.0,
+          64.0
+        ],
+        "M": [
+          75.0,
+          68.0
+        ],
+        "L": [
+          76.0,
+          72.0
+        ],
+        "XL": [
+          77.0,
+          76.0
+        ]
+      }
+    },
+    "model_reference": {
+      "height_cm": 167.0,
+      "weight_kg": 48.0,
+      "size": "S"
+    },
+    "front": "黑色光泽缎面高腰A字半身裙，裙长到小腿中部，腰头平整",
+    "back": "背面有一条隐形拉链，同样的黑色缎面"
+  },
+  {
+    "id": "mock_tank_black",
+    "title": "黑色罗纹修身吊带背心 内搭外穿",
+    "category": "top",
+    "category_path": [
+      "女装",
+      "背心吊带"
+    ],
+    "price": 49,
+    "color": "黑色",
+    "occasions": "夏天、健身、约会",
+    "attributes": {
+      "material": "棉95% 氨纶5%",
+      "thickness": "薄",
+      "stretch": "高弹",
+      "fit": "修身",
+      "length_type": "短款",
+      "sleeve": "无袖",
+      "neckline": "U领",
+      "season": "夏季",
+      "style": "简约"
+    },
+    "size_chart": {
+      "columns": [
+        "length",
+        "chest"
+      ],
+      "rows": {
+        "S": [
+          48.0,
+          70.0
+        ],
+        "M": [
+          50.0,
+          74.0
+        ],
+        "L": [
+          52.0,
+          78.0
+        ],
+        "XL": [
+          54.0,
+          82.0
+        ]
+      }
+    },
+    "model_reference": {
+      "height_cm": 165.0,
+      "weight_kg": 46.0,
+      "size": "S"
+    },
+    "front": "黑色细罗纹无袖修身背心，宽肩带，U型领口",
+    "back": "背面是U型挖背，同样的黑色罗纹"
+  },
+  {
+    "id": "mock_tee_white",
+    "title": "纯棉重磅圆领短袖T恤 女 基础款",
+    "category": "top",
+    "category_path": [
+      "女装",
+      "T恤"
+    ],
+    "price": 79,
+    "color": "白色",
+    "occasions": "日常通勤、逛街、百搭",
+    "attributes": {
+      "material": "100%棉",
+      "thickness": "适中",
+      "stretch": "微弹",
+      "fit": "宽松",
+      "length_type": "常规款",
+      "sleeve": "短袖",
+      "neckline": "圆领",
+      "season": "夏季",
+      "style": "简约"
+    },
+    "size_chart": {
+      "columns": [
+        "length",
+        "chest",
+        "shoulder",
+        "sleeve"
+      ],
+      "rows": {
+        "S": [
+          62.0,
+          100.0,
+          46.0,
+          20.0
+        ],
+        "M": [
+          64.0,
+          104.0,
+          47.5,
+          21.0
+        ],
+        "L": [
+          66.0,
+          108.0,
+          49.0,
+          22.0
+        ],
+        "XL": [
+          68.0,
+          112.0,
+          50.5,
+          23.0
+        ]
+      }
+    },
+    "model_reference": {
+      "height_cm": 165.0,
+      "weight_kg": 47.0,
+      "size": "S"
+    },
+    "front": "纯白色短袖圆领纯棉T恤，无图案",
+    "back": "背面同样是纯白无图案"
+  }
+]

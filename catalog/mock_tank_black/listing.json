@@ -1,0 +1,174 @@
+{
+  "id": "mock_tank_black",
+  "platform": "mock",
+  "item_id": "mock_tank_black",
+  "url": null,
+  "fetched_at": "2026-09-24T07:08:22+00:00",
+  "title": "黑色罗纹修身吊带背心 内搭外穿",
+  "brand": {
+    "value": "MOCK",
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "price": {
+    "value": 49,
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "category_path": [
+    "女装",
+    "背心吊带"
+  ],
+  "category": "top",
+  "gender": {
+    "value": "female",
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "images": [
+    {
+      "file": "front.jpg",
+      "kind": "flat_lay",
+      "view": "front",
+      "source": "mock"
+    },
+    {
+      "file": "back.jpg",
+      "kind": "flat_lay",
+      "view": "back",
+      "source": "mock"
+    }
+  ],
+  "skus": [
+    {
+      "color": "黑色",
+      "size": "S",
+      "stock": 100
+    },
+    {
+      "color": "黑色",
+      "size": "M",
+      "stock": 100
+    },
+    {
+      "color": "黑色",
+      "size": "L",
+      "stock": 100
+    },
+    {
+      "color": "黑色",
+      "size": "XL",
+      "stock": 100
+    }
+  ],
+  "attributes": {
+    "material": {
+      "value": "棉95% 氨纶5%",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "thickness": {
+      "value": "薄",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "stretch": {
+      "value": "高弹",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "fit": {
+      "value": "修身",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "length_type": {
+      "value": "短款",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "sleeve": {
+      "value": "无袖",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "neckline": {
+      "value": "U领",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "season": {
+      "value": "夏季",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "style": {
+      "value": "简约",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    }
+  },
+  "size_chart": {
+    "basis": "garment",
+    "rows": [
+      {
+        "size": "S",
+        "measures": {
+          "length": 48.0,
+          "chest": 70.0
+        }
+      },
+      {
+        "size": "M",
+        "measures": {
+          "length": 50.0,
+          "chest": 74.0
+        }
+      },
+      {
+        "size": "L",
+        "measures": {
+          "length": 52.0,
+          "chest": 78.0
+        }
+      },
+      {
+        "size": "XL",
+        "measures": {
+          "length": 54.0,
+          "chest": 82.0
+        }
+      }
+    ],
+    "source": "mock",
+    "confidence": null
+  },
+  "model_reference": {
+    "height_cm": 165.0,
+    "weight_kg": 46.0,
+    "size": "S",
+    "source": "mock",
+    "confidence": null
+  },
+  "occasions": {
+    "value": "夏天、健身、约会",
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "raw": {
+    "note": "mock listing for testing; not real platform data"
+  }
+}

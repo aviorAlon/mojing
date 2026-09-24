@@ -1,0 +1,182 @@
+{
+  "id": "mock_knit_longsleeve",
+  "platform": "mock",
+  "item_id": "mock_knit_longsleeve",
+  "url": null,
+  "fetched_at": "2026-09-24T07:25:07+00:00",
+  "title": "燕麦色长袖修身针织打底衫 圆领 秋冬",
+  "brand": {
+    "value": "MOCK",
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "price": {
+    "value": 119,
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "category_path": [
+    "女装",
+    "针织衫"
+  ],
+  "category": "top",
+  "gender": {
+    "value": "female",
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "images": [
+    {
+      "file": "front.jpg",
+      "kind": "flat_lay",
+      "view": "front",
+      "source": "mock"
+    },
+    {
+      "file": "back.jpg",
+      "kind": "flat_lay",
+      "view": "back",
+      "source": "mock"
+    }
+  ],
+  "skus": [
+    {
+      "color": "燕麦色",
+      "size": "S",
+      "stock": 100
+    },
+    {
+      "color": "燕麦色",
+      "size": "M",
+      "stock": 100
+    },
+    {
+      "color": "燕麦色",
+      "size": "L",
+      "stock": 100
+    },
+    {
+      "color": "燕麦色",
+      "size": "XL",
+      "stock": 100
+    }
+  ],
+  "attributes": {
+    "material": {
+      "value": "粘纤55% 锦纶45%",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "thickness": {
+      "value": "适中",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "stretch": {
+      "value": "高弹",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "fit": {
+      "value": "修身",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "length_type": {
+      "value": "常规款",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "sleeve": {
+      "value": "长袖",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "neckline": {
+      "value": "圆领",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "season": {
+      "value": "秋冬",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "style": {
+      "value": "简约",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    }
+  },
+  "size_chart": {
+    "basis": "garment",
+    "rows": [
+      {
+        "size": "S",
+        "measures": {
+          "length": 56.0,
+          "chest": 80.0,
+          "shoulder": 34.0,
+          "sleeve": 58.0
+        }
+      },
+      {
+        "size": "M",
+        "measures": {
+          "length": 58.0,
+          "chest": 84.0,
+          "shoulder": 35.0,
+          "sleeve": 59.0
+        }
+      },
+      {
+        "size": "L",
+        "measures": {
+          "length": 60.0,
+          "chest": 88.0,
+          "shoulder": 36.0,
+          "sleeve": 60.0
+        }
+      },
+      {
+        "size": "XL",
+        "measures": {
+          "length": 62.0,
+          "chest": 92.0,
+          "shoulder": 37.0,
+          "sleeve": 61.0
+        }
+      }
+    ],
+    "source": "mock",
+    "confidence": null
+  },
+  "model_reference": {
+    "height_cm": 166.0,
+    "weight_kg": 47.0,
+    "size": "S",
+    "source": "mock",
+    "confidence": null
+  },
+  "occasions": {
+    "value": "保暖、秋冬、上班内搭",
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "raw": {
+    "note": "mock listing for testing; not real platform data"
+  }
+}

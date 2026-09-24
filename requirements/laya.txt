@@ -1,0 +1,2 @@
+# laya decision service (CPU is enough: 0.2-0.4 s per decision). torch (CPU build) is installed by scripts/setup.py.
+laya[serve]==0.3.20

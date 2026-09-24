@@ -1,0 +1,182 @@
+{
+  "id": "mock_blazer_beige",
+  "platform": "mock",
+  "item_id": "mock_blazer_beige",
+  "url": null,
+  "fetched_at": "2026-09-24T07:08:22+00:00",
+  "title": "燕麦色西装外套 女 春秋 休闲小西服",
+  "brand": {
+    "value": "MOCK",
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "price": {
+    "value": 299,
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "category_path": [
+    "女装",
+    "西装"
+  ],
+  "category": "outerwear",
+  "gender": {
+    "value": "female",
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "images": [
+    {
+      "file": "front.jpg",
+      "kind": "flat_lay",
+      "view": "front",
+      "source": "mock"
+    },
+    {
+      "file": "back.jpg",
+      "kind": "flat_lay",
+      "view": "back",
+      "source": "mock"
+    }
+  ],
+  "skus": [
+    {
+      "color": "燕麦色",
+      "size": "S",
+      "stock": 100
+    },
+    {
+      "color": "燕麦色",
+      "size": "M",
+      "stock": 100
+    },
+    {
+      "color": "燕麦色",
+      "size": "L",
+      "stock": 100
+    },
+    {
+      "color": "燕麦色",
+      "size": "XL",
+      "stock": 100
+    }
+  ],
+  "attributes": {
+    "material": {
+      "value": "聚酯纤维70% 粘纤30%",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "thickness": {
+      "value": "适中",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "stretch": {
+      "value": "无弹",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "fit": {
+      "value": "直筒",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "length_type": {
+      "value": "常规款",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "sleeve": {
+      "value": "长袖",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "neckline": {
+      "value": "西装领",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "season": {
+      "value": "春秋",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "style": {
+      "value": "通勤",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    }
+  },
+  "size_chart": {
+    "basis": "garment",
+    "rows": [
+      {
+        "size": "S",
+        "measures": {
+          "length": 68.0,
+          "chest": 98.0,
+          "shoulder": 39.0,
+          "sleeve": 58.0
+        }
+      },
+      {
+        "size": "M",
+        "measures": {
+          "length": 70.0,
+          "chest": 102.0,
+          "shoulder": 40.0,
+          "sleeve": 59.0
+        }
+      },
+      {
+        "size": "L",
+        "measures": {
+          "length": 72.0,
+          "chest": 106.0,
+          "shoulder": 41.0,
+          "sleeve": 60.0
+        }
+      },
+      {
+        "size": "XL",
+        "measures": {
+          "length": 74.0,
+          "chest": 110.0,
+          "shoulder": 42.0,
+          "sleeve": 61.0
+        }
+      }
+    ],
+    "source": "mock",
+    "confidence": null
+  },
+  "model_reference": {
+    "height_cm": 167.0,
+    "weight_kg": 48.0,
+    "size": "S",
+    "source": "mock",
+    "confidence": null
+  },
+  "occasions": {
+    "value": "面试、上班、正式场合",
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "raw": {
+    "note": "mock listing for testing; not real platform data"
+  }
+}

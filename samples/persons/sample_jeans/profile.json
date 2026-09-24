@@ -1,0 +1,169 @@
+{
+  "id": "sample_jeans",
+  "created_at": "2026-09-24T07:12:39+00:00",
+  "updated_at": "2026-09-24T07:12:39+00:00",
+  "version": 1,
+  "views": {
+    "front": "front.jpg",
+    "side": "side.jpg",
+    "back": "back.jpg"
+  },
+  "photo_checks": {
+    "front": {
+      "view": "front",
+      "passed": true,
+      "blocking": [],
+      "warnings": [
+        "小腿被裤子遮住了：换短裙/短裤时腿部只能由 AI 推测。建议穿短裤拍"
+      ],
+      "metrics": {
+        "sharpness": 120.5,
+        "people": 1,
+        "person_height_ratio": 0.928,
+        "face_ratio": 0.6,
+        "shoulder_span": 0.18,
+        "detected_view": "front",
+        "shin_skin_ratio": 0.0,
+        "arm_skin_ratio": 0.0871,
+        "hip_width_ratio": 0.209,
+        "leg_ratio": 0.431,
+        "shoulder_ratio": 0.18,
+        "top_color": [
+          216,
+          215,
+          218
+        ]
+      }
+    },
+    "side": {
+      "view": "side",
+      "passed": true,
+      "blocking": [],
+      "warnings": [
+        "小腿被裤子遮住了：换短裙/短裤时腿部只能由 AI 推测。建议穿短裤拍"
+      ],
+      "metrics": {
+        "sharpness": 101.9,
+        "people": 1,
+        "person_height_ratio": 0.914,
+        "face_ratio": 0.325,
+        "shoulder_span": 0.005,
+        "detected_view": "side",
+        "shin_skin_ratio": 0.0,
+        "arm_skin_ratio": 0.0847,
+        "hip_width_ratio": 0.149,
+        "leg_ratio": 0.442,
+        "shoulder_ratio": 0.005,
+        "top_color": [
+          222,
+          220,
+          225
+        ]
+      }
+    },
+    "back": {
+      "view": "back",
+      "passed": true,
+      "blocking": [],
+      "warnings": [
+        "小腿被裤子遮住了：换短裙/短裤时腿部只能由 AI 推测。建议穿短裤拍"
+      ],
+      "metrics": {
+        "sharpness": 127.7,
+        "people": 1,
+        "person_height_ratio": 0.919,
+        "face_ratio": 0.06,
+        "shoulder_span": 0.184,
+        "detected_view": "back",
+        "shin_skin_ratio": 0.0,
+        "arm_skin_ratio": 0.0831,
+        "hip_width_ratio": 0.205,
+        "leg_ratio": 0.467,
+        "shoulder_ratio": 0.184,
+        "top_color": [
+          216,
+          214,
+          219
+        ]
+      }
+    }
+  },
+  "profile": {
+    "gender": {
+      "value": "female",
+      "source": "user_input",
+      "confidence": null,
+      "note": null
+    },
+    "height_cm": {
+      "value": 160.0,
+      "source": "user_input",
+      "confidence": null,
+      "note": null
+    },
+    "weight_kg": {
+      "value": 55.0,
+      "source": "user_input",
+      "confidence": null,
+      "note": null
+    },
+    "chest_cm": {
+      "value": null,
+      "source": "missing",
+      "confidence": null,
+      "note": null
+    },
+    "waist_cm": {
+      "value": 70.0,
+      "source": "user_input",
+      "confidence": null,
+      "note": null
+    },
+    "hip_cm": {
+      "value": 94.0,
+      "source": "user_input",
+      "confidence": null,
+      "note": null
+    },
+    "shoulder_cm": {
+      "value": null,
+      "source": "missing",
+      "confidence": null,
+      "note": null
+    },
+    "usual_top_size": {
+      "value": null,
+      "source": "missing",
+      "confidence": null,
+      "note": null
+    },
+    "usual_bottom_size": {
+      "value": null,
+      "source": "missing",
+      "confidence": null,
+      "note": null
+    }
+  },
+  "measured": {
+    "shoulder_cm": {
+      "value": 28.8,
+      "source": "measured",
+      "confidence": 0.6,
+      "note": "肩关节间距，比量体肩宽略小"
+    },
+    "hip_width_cm": {
+      "value": 33.4,
+      "source": "measured",
+      "confidence": 0.5,
+      "note": "正面胯部宽度（含衣物）"
+    },
+    "leg_ratio": {
+      "value": 0.431,
+      "source": "measured",
+      "confidence": 0.6,
+      "note": null
+    }
+  },
+  "trust": "trusted",
+  "issues": []
+}

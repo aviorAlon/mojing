@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laya 快速换装</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231d1b19'/%3E%3Ctext x='16' y='23' font-size='20' font-family='Arial' font-weight='700' fill='white' text-anchor='middle'%3EL%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/static/style.css?v=__V__">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">L</span>
+      <div>
+        <h1>Laya 快速换装</h1>
+        <p>说一句话 → laya 毫秒级挑衣服 → 正面 / 侧面 / 背面一起穿到你身上</p>
+      </div>
+    </div>
+    <div class="status">
+      <span class="pill" id="st-laya"><i></i>laya</span>
+      <span class="pill" id="st-tryon"><i></i>FASHN</span>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="panel models">
+      <div class="panel-head">
+        <h2>模特</h2>
+        <button class="btn ghost small" id="person-open">+ 新建</button>
+      </div>
+      <p class="hint">上传你自己的正面 / 侧面 / 背面照，就能前后左右看效果</p>
+      <div class="person-info" id="person-info"></div>
+      <div class="model-grid" id="model-grid"></div>
+    </section>
+
+    <section class="stage-wrap">
+      <div class="stage" id="stage">
+        <img id="stage-img" alt="" draggable="false">
+        <video id="stage-video" loop muted playsinline hidden></video>
+        <div class="stage-empty" id="stage-empty">先在左边选一个模特</div>
+        <div class="badge" id="badge" hidden>
+          <span id="badge-laya"></span>
+          <span id="badge-tryon"></span>
+        </div>
+        <div class="stage-note" id="stage-note" hidden></div>
+        <button class="score-pill" id="score-pill" hidden title="查看评分明细"></button>
+        <div class="stage-busy" id="stage-busy" hidden>
+          <div class="spinner"></div>
+          <div id="busy-text">生成中…</div>
+          <div class="busy-timer" id="busy-timer">0.0s</div>
+          <div class="busy-track"><i id="busy-bar"></i></div>
+        </div>
+        <button class="compare" id="compare" hidden title="按住查看原图">按住看原图</button>
+      </div>
+
+      <div class="views" id="views">
+        <div class="view-tabs" id="view-tabs"></div>
+        <button class="btn ghost small" id="video-btn" hidden>生成转身视频</button>
+      </div>
+
+      <form class="ask" id="ask">
+        <button type="button" class="mic" id="mic" title="语音输入">
+          <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 14a3 3 0 0 0 3-3V5a3 3 0 1 0-6 0v6a3 3 0 0 0 3 3Zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.92V21h2v-3.08A7 7 0 0 0 19 11h-2Z"/></svg>
+        </button>
+        <input id="ask-input" autocomplete="off" placeholder="比如：明天要去面试，想穿得得体一点">
+        <select id="mode" title="每个视角的耗时（本机 RTX 4060）。极速：印花细节会弱一些；标准：推荐；精细：印花文字最准但慢">
+          <option value="turbo">极速 ~5s</option>
+          <option value="fast" selected>标准 ~8s</option>
+          <option value="quality">精细 ~30s</option>
+        </select>
+        <button class="btn primary" id="ask-btn">帮我换</button>
+      </form>
+      <div class="chips" id="chips"></div>
+
+      <div class="decision" id="decision" hidden>
+        <div class="decision-main">
+          <img id="dec-img" alt="">
+          <div>
+            <div class="dec-label">laya 选了</div>
+            <div class="dec-name" id="dec-name"></div>
+            <div class="dec-occ" id="dec-occ"></div>
+          </div>
+        </div>
+        <div class="probs" id="probs"></div>
+        <div class="metrics">
+          <div><b id="m-laya">–</b><span>laya 决策</span></div>
+          <div><b id="m-first">–</b><span>首帧预览</span></div>
+          <div><b id="m-tryon">–</b><span>正面完成</span></div>
+          <div><b id="m-all">–</b><span>全部视角</span></div>
+        </div>
+      </div>
+
+      <div class="score" id="score" hidden></div>
+      <div class="product" id="product" hidden></div>
+
+      <div class="history" id="history"></div>
+    </section>
+
+    <section class="panel closet">
+      <div class="panel-head">
+        <h2>衣柜 <small id="closet-count"></small></h2>
+        <button class="btn ghost small" id="add-open">+ 添加</button>
+      </div>
+      <p class="hint">点击任意一件直接试穿</p>
+      <div class="closet-grid" id="closet-grid"></div>
+    </section>
+  </main>
+
+  <dialog id="person-dialog">
+    <form id="person-form" method="dialog">
+      <h3>新建模特</h3>
+      <ul class="dialog-tips">
+        <li><b>穿贴身短袖 + 短裤/短裙</b>，露出手臂和小腿（换装最准，AI 不用编造身体）</li>
+        <li>全身站直，头顶到脚底都在画面里；背景简单、光线均匀</li>
+        <li>三张用同一身衣服拍；侧面、背面可不传，传了才能看对应角度</li>
+      </ul>
+      <div class="view-slots">
+        <label class="slot" data-view="front"><input type="file" name="front" accept="image/*" required><span class="slot-img"></span><b>正面 *</b><span class="slot-msg"></span></label>
+        <label class="slot" data-view="side"><input type="file" name="side" accept="image/*"><span class="slot-img"></span><b>侧面</b><span class="slot-msg"></span></label>
+        <label class="slot" data-view="back"><input type="file" name="back" accept="image/*"><span class="slot-img"></span><b>背面</b><span class="slot-msg"></span></label>
+      </div>
+      <div class="form-grid">
+        <label>性别 *
+          <select name="gender" required><option value="">请选择</option><option value="female">女</option><option value="male">男</option></select>
+        </label>
+        <label>身高 cm *<input name="height_cm" type="number" step="0.1" required placeholder="165"></label>
+        <label>体重 kg *<input name="weight_kg" type="number" step="0.1" required placeholder="52"></label>
+        <label>胸围 cm<input name="chest_cm" type="number" step="0.1" placeholder="选填"></label>
+        <label>腰围 cm<input name="waist_cm" type="number" step="0.1" placeholder="选填"></label>
+        <label>臀围 cm<input name="hip_cm" type="number" step="0.1" placeholder="选填"></label>
+        <label>肩宽 cm<input name="shoulder_cm" type="number" step="0.1" placeholder="选填"></label>
+        <label>常穿上衣码<input name="usual_top_size" maxlength="8" placeholder="如 M"></label>
+        <label>常穿下装码<input name="usual_bottom_size" maxlength="8" placeholder="如 27"></label>
+      </div>
+      <p class="dialog-hint">填得越全，后续的尺码推荐越准。明显不符合人体比例的数据会被标记为不可信。</p>
+      <div class="form-error" id="person-error"></div>
+      <div class="dialog-actions">
+        <button type="button" class="btn ghost" data-close>取消</button>
+        <button type="submit" class="btn primary">创建</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="add-dialog">
+    <form id="add-form" method="dialog">
+      <h3>添加衣服到衣柜</h3>
+      <div class="view-slots two">
+        <label class="slot"><input type="file" name="image" accept="image/*" required><span class="slot-img"></span><b>正面图 *</b></label>
+        <label class="slot"><input type="file" name="image_back" accept="image/*"><span class="slot-img"></span><b>背面图</b></label>
+      </div>
+      <p class="dialog-hint">平铺或挂拍、白底最好。没有背面图时不会生成背面效果。</p>
+      <label>名称
+        <input name="name" required maxlength="40" placeholder="比如：藏青色西装外套">
+      </label>
+      <label>适合场合 <em>laya 靠这个来挑，写短词最有效</em>
+        <input name="occasions" required maxlength="60" placeholder="比如：面试、商务会议、正式">
+      </label>
+      <label>类型
+        <select name="category">
+          <option value="top">上衣</option>
+          <option value="outerwear">外套</option>
+          <option value="pants">裤装</option>
+          <option value="skirt">半身裙</option>
+          <option value="dress">连衣裙</option>
+          <option value="jumpsuit">连体裤</option>
+        </select>
+      </label>
+      <div class="dialog-actions">
+        <button type="button" class="btn ghost" data-close>取消</button>
+        <button type="submit" class="btn primary">添加</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div class="toast" id="toast" hidden></div>
+  <script src="/static/app.js?v=__V__"></script>
+</body>
+</html>

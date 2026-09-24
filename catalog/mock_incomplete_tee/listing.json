@@ -1,0 +1,52 @@
+{
+  "id": "mock_incomplete_tee",
+  "platform": "mock",
+  "item_id": "mock_incomplete_tee",
+  "url": null,
+  "fetched_at": "2026-09-24T07:37:15+00:00",
+  "title": "（数据不全示例）白色短袖T恤",
+  "brand": {
+    "value": null,
+    "source": "missing",
+    "confidence": null,
+    "note": null
+  },
+  "price": {
+    "value": 59,
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "category_path": [
+    "女装",
+    "T恤"
+  ],
+  "category": "top",
+  "gender": {
+    "value": null,
+    "source": "missing",
+    "confidence": null,
+    "note": null
+  },
+  "images": [
+    {
+      "file": "front.jpg",
+      "kind": "flat_lay",
+      "view": "front",
+      "source": "mock"
+    }
+  ],
+  "skus": [],
+  "attributes": {},
+  "size_chart": null,
+  "model_reference": null,
+  "occasions": {
+    "value": "居家、日常",
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "raw": {
+    "note": "only a front image: no back image, attributes, size chart or model reference"
+  }
+}

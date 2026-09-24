@@ -1,0 +1,182 @@
+{
+  "id": "mock_hoodie_backprint",
+  "platform": "mock",
+  "item_id": "mock_hoodie_backprint",
+  "url": null,
+  "fetched_at": "2026-09-24T07:08:21+00:00",
+  "title": "美式复古连帽卫衣 后背大字印花 宽松",
+  "brand": {
+    "value": "MOCK",
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "price": {
+    "value": 159,
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "category_path": [
+    "女装",
+    "卫衣"
+  ],
+  "category": "top",
+  "gender": {
+    "value": "female",
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "images": [
+    {
+      "file": "front.jpg",
+      "kind": "flat_lay",
+      "view": "front",
+      "source": "mock"
+    },
+    {
+      "file": "back.jpg",
+      "kind": "flat_lay",
+      "view": "back",
+      "source": "mock"
+    }
+  ],
+  "skus": [
+    {
+      "color": "雾霾蓝",
+      "size": "S",
+      "stock": 100
+    },
+    {
+      "color": "雾霾蓝",
+      "size": "M",
+      "stock": 100
+    },
+    {
+      "color": "雾霾蓝",
+      "size": "L",
+      "stock": 100
+    },
+    {
+      "color": "雾霾蓝",
+      "size": "XL",
+      "stock": 100
+    }
+  ],
+  "attributes": {
+    "material": {
+      "value": "棉65% 聚酯纤维35%",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "thickness": {
+      "value": "加厚",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "stretch": {
+      "value": "微弹",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "fit": {
+      "value": "宽松",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "length_type": {
+      "value": "常规款",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "sleeve": {
+      "value": "长袖",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "neckline": {
+      "value": "连帽",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "season": {
+      "value": "秋冬",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "style": {
+      "value": "街头",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    }
+  },
+  "size_chart": {
+    "basis": "garment",
+    "rows": [
+      {
+        "size": "S",
+        "measures": {
+          "length": 66.0,
+          "chest": 116.0,
+          "shoulder": 58.0,
+          "sleeve": 52.0
+        }
+      },
+      {
+        "size": "M",
+        "measures": {
+          "length": 68.0,
+          "chest": 120.0,
+          "shoulder": 60.0,
+          "sleeve": 53.0
+        }
+      },
+      {
+        "size": "L",
+        "measures": {
+          "length": 70.0,
+          "chest": 124.0,
+          "shoulder": 62.0,
+          "sleeve": 54.0
+        }
+      },
+      {
+        "size": "XL",
+        "measures": {
+          "length": 72.0,
+          "chest": 128.0,
+          "shoulder": 64.0,
+          "sleeve": 55.0
+        }
+      }
+    ],
+    "source": "mock",
+    "confidence": null
+  },
+  "model_reference": {
+    "height_cm": 168.0,
+    "weight_kg": 50.0,
+    "size": "M",
+    "source": "mock",
+    "confidence": null
+  },
+  "occasions": {
+    "value": "街头潮流、运动、周末出游",
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "raw": {
+    "note": "mock listing for testing; not real platform data"
+  }
+}

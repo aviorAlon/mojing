@@ -1,0 +1,182 @@
+{
+  "id": "mock_tee_white",
+  "platform": "mock",
+  "item_id": "mock_tee_white",
+  "url": null,
+  "fetched_at": "2026-09-24T07:08:21+00:00",
+  "title": "纯棉重磅圆领短袖T恤 女 基础款",
+  "brand": {
+    "value": "MOCK",
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "price": {
+    "value": 79,
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "category_path": [
+    "女装",
+    "T恤"
+  ],
+  "category": "top",
+  "gender": {
+    "value": "female",
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "images": [
+    {
+      "file": "front.jpg",
+      "kind": "flat_lay",
+      "view": "front",
+      "source": "mock"
+    },
+    {
+      "file": "back.jpg",
+      "kind": "flat_lay",
+      "view": "back",
+      "source": "mock"
+    }
+  ],
+  "skus": [
+    {
+      "color": "白色",
+      "size": "S",
+      "stock": 100
+    },
+    {
+      "color": "白色",
+      "size": "M",
+      "stock": 100
+    },
+    {
+      "color": "白色",
+      "size": "L",
+      "stock": 100
+    },
+    {
+      "color": "白色",
+      "size": "XL",
+      "stock": 100
+    }
+  ],
+  "attributes": {
+    "material": {
+      "value": "100%棉",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "thickness": {
+      "value": "适中",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "stretch": {
+      "value": "微弹",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "fit": {
+      "value": "宽松",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "length_type": {
+      "value": "常规款",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "sleeve": {
+      "value": "短袖",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "neckline": {
+      "value": "圆领",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "season": {
+      "value": "夏季",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    },
+    "style": {
+      "value": "简约",
+      "source": "mock",
+      "confidence": null,
+      "note": null
+    }
+  },
+  "size_chart": {
+    "basis": "garment",
+    "rows": [
+      {
+        "size": "S",
+        "measures": {
+          "length": 62.0,
+          "chest": 100.0,
+          "shoulder": 46.0,
+          "sleeve": 20.0
+        }
+      },
+      {
+        "size": "M",
+        "measures": {
+          "length": 64.0,
+          "chest": 104.0,
+          "shoulder": 47.5,
+          "sleeve": 21.0
+        }
+      },
+      {
+        "size": "L",
+        "measures": {
+          "length": 66.0,
+          "chest": 108.0,
+          "shoulder": 49.0,
+          "sleeve": 22.0
+        }
+      },
+      {
+        "size": "XL",
+        "measures": {
+          "length": 68.0,
+          "chest": 112.0,
+          "shoulder": 50.5,
+          "sleeve": 23.0
+        }
+      }
+    ],
+    "source": "mock",
+    "confidence": null
+  },
+  "model_reference": {
+    "height_cm": 165.0,
+    "weight_kg": 47.0,
+    "size": "S",
+    "source": "mock",
+    "confidence": null
+  },
+  "occasions": {
+    "value": "日常通勤、逛街、百搭",
+    "source": "mock",
+    "confidence": null,
+    "note": null
+  },
+  "raw": {
+    "note": "mock listing for testing; not real platform data"
+  }
+}
