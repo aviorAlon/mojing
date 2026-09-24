@@ -38,7 +38,7 @@ def run(cmd, env=None, check=True):
     print("   $", " ".join(cmd), flush=True)
     result = subprocess.run(cmd, env=env)
     if check and result.returncode != 0:
-        sys.exit(f"\n命令失败（exit {result.returncode}）：{' '.join(cmd)}\n请查看上面的输出，或参考 docs/troubleshooting.md")
+        sys.exit(f"\n命令失败（exit {result.returncode}）：{' '.join(cmd)}\n请查看上面的输出，或参考 docs/zh-CN/troubleshooting.md（English: docs/en/troubleshooting.md）")
     return result.returncode
 
 

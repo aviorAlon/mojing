@@ -1,22 +1,24 @@
-# 参与贡献
+# Contributing
 
-欢迎提 issue 和 pull request。
+English | [简体中文](CONTRIBUTING.zh-CN.md)
 
-## 提 issue
+Issues and pull requests are welcome.
 
-- 问题：附上 `python scripts/doctor.py` 的输出、`data/logs/` 里相关的日志、操作系统和显卡型号。
-- 换装效果问题：附上模特照片（请用虚构人物或你有权分享的照片）、商品图，以及页面上的可信度评分明细。
+## Issues
 
-## 提 pull request
+- Problems: include the output of `python scripts/doctor.py`, the relevant logs from `data/logs/`, your OS and GPU.
+- Try-on quality: include the person photos (fictional people or photos you are allowed to share), the garment images, and the reliability score breakdown shown on the page.
 
-1. 从 `main` 拉分支，一个 PR 只做一件事。
-2. 本地安装：`python scripts/setup.py --dev`。
-3. 修改规则类逻辑（`validation.py`、`fitting.py`、`scoring.py`）时，同时补测试。
-4. 提交前运行 `python -m pytest tests`，需要全部通过。改了换装管线的，再跑一次 `tests/e2e`，并在 PR 里附上改动前后的效果对比图。
-5. 更新相关文档和 `CHANGELOG.md`。
+## Pull requests
 
-## 原则
+1. Branch off `master`; one PR does one thing.
+2. Local setup: `python scripts/setup.py --dev`.
+3. Changes to rule logic (`validation.py`, `fitting.py`, `scoring.py`) come with tests.
+4. Run `python -m pytest tests` before submitting; everything must pass. If you changed the try-on pipeline, also run `tests/e2e` and attach before/after comparison images to the PR.
+5. Update the relevant docs in both languages (`docs/en/` and `docs/zh-CN/`) and both changelogs.
 
-- **真实性优先**：宁可关闭功能或给出低分，也不用猜测的数据冒充真实数据。
-- 不在仓库里放真人照片、有版权的商品图或模型权重。
-- 面向用户的文字用中文；代码、注释、提交信息用英文。
+## Principles
+
+- **Fidelity first**: rather switch a feature off or give a low score than pass guessed data off as real.
+- No photos of real people, copyrighted product images or model weights in the repository.
+- User-facing text is Chinese; code, comments and commit messages are English.

@@ -5,7 +5,7 @@
     .venvs/tryon/bin/python tools/generate_catalog.py --only mock_tee_white --force
     .venvs/tryon/bin/python tools/generate_catalog.py --spec my_spec.json --out my_catalog/
 
-Needs an image provider (IMAGE_API_KEY or IMAGE_PROVIDER in .env, see docs/generation.md). The front flat-lay is
+Needs an image provider (IMAGE_API_KEY or IMAGE_PROVIDER in .env, see docs/en/generation.md). The front flat-lay is
 generated first and passed as the reference for the back, so both sides show the same garment.
 """
 import argparse

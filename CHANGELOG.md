@@ -1,17 +1,19 @@
 # Changelog
 
-本项目遵循 [语义化版本](https://semver.org/lang/zh-CN/)。
+English | [简体中文](CHANGELOG.zh-CN.md)
+
+This project follows [Semantic Versioning](https://semver.org/).
 
 ## [0.1.0] - 2026-09-24
 
-首个开源版本。
+First open-source release.
 
-### 功能
-- laya 决策：一句话需求 → 从衣柜挑一件（CPU，约 0.2–0.4 秒）。
-- FASHN VTON v1.5 多视角换装（正 / 侧 / 背），流式预览，三档速度。
-- 按尺码表挑尺码并模拟衣长；只重画衣服，保留真实的身体。
-- 照片上传检查（全身、单人、视角、清晰度、遮挡提示）与身材数据可信度评估。
-- 可信度评分（视觉 / 合身两部分，逐条扣分原因）和生成后质检（衣长偏差、腿形变化）。
-- 数据模型：电商商品与人物，每个字段标注来源；缺数据时关闭对应功能。
-- 一键安装（`scripts/setup.py`）、启停（`scripts/run.py`）、自检（`scripts/doctor.py`）。
-- 可选的生成模型接口：OpenAI 兼容图片模型或插件（生成模拟商品、模拟模特），视频插件（转身视频）。
+### Features
+- laya decisions: a one-sentence request → one item from the wardrobe (CPU, about 0.2–0.4 s).
+- FASHN VTON v1.5 multi-view try-on (front / side / back), streamed previews, three speed modes.
+- Size picked from the size chart and garment length simulated; only the clothes are repainted, the real body is kept.
+- Photo checks at upload (full body, single person, view, sharpness, coverage hints) and body-data credibility assessment.
+- Reliability score (visual / fit parts with itemised deductions) and post-generation result check (length deviation, leg-shape change).
+- Data model: e-commerce garments and people, every value tagged with its source; features switch off when data is missing.
+- One-shot setup (`scripts/setup.py`), start/stop (`scripts/run.py`), self-check (`scripts/doctor.py`).
+- Optional generation model interfaces: OpenAI-compatible image models or plugins (mock garments, sample people), video plugins (turnaround videos).

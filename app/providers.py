@@ -7,7 +7,7 @@ Videos (turnaround video on the website):
     VIDEO_PROVIDER=package.module:ClassName        your own class implementing VideoProvider
 
 Nothing is configured by default: calling a provider then raises ProviderNotConfigured with instructions.
-See docs/generation.md.
+See docs/en/generation.md (English) or docs/zh-CN/generation.md.
 """
 import base64
 import importlib
@@ -86,14 +86,14 @@ def image_provider() -> ImageProvider:
                                    os.environ.get("IMAGE_MODEL", "gpt-image-1"), os.environ.get("IMAGE_SIZE", "1024x1536"))
     raise ProviderNotConfigured(
         "未配置图片生成模型：请在 .env 里设置 IMAGE_API_KEY（以及 IMAGE_API_BASE、IMAGE_MODEL，支持任何 OpenAI 兼容的 Images API），"
-        "或用 IMAGE_PROVIDER=模块:类名 指定自己的实现。见 docs/generation.md")
+        "或用 IMAGE_PROVIDER=模块:类名 指定自己的实现。见 docs/zh-CN/generation.md")
 
 
 def video_provider() -> VideoProvider:
     if spec := os.environ.get("VIDEO_PROVIDER"):
         return _load_class(spec)
     raise ProviderNotConfigured(
-        "未配置视频生成模型：请在 .env 里用 VIDEO_PROVIDER=模块:类名 指定你自己的视频生成实现。见 docs/generation.md")
+        "未配置视频生成模型：请在 .env 里用 VIDEO_PROVIDER=模块:类名 指定你自己的视频生成实现。见 docs/zh-CN/generation.md")
 
 
 def video_status() -> dict:

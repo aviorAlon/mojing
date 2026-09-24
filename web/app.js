@@ -700,7 +700,7 @@ function setupAsk() {
   };
 }
 
-// ---------- turnaround video (provider configured by the user, see docs/generation.md) ----------
+// ---------- turnaround video (provider configured by the user, see docs/en/generation.md) ----------
 
 async function startVideo() {
   const e = state.entry;

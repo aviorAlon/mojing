@@ -10,7 +10,7 @@
 
 The front photo is generated first and passed as the reference for the side and back views, so all three show the
 same person in the same outfit. Following the upload guidance, people wear a fitted T-shirt and shorts.
-Needs an image provider (IMAGE_API_KEY or IMAGE_PROVIDER in .env, see docs/generation.md).
+Needs an image provider (IMAGE_API_KEY or IMAGE_PROVIDER in .env, see docs/en/generation.md).
 """
 import argparse
 import io

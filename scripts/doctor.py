@@ -133,9 +133,9 @@ def main():
 
     print("\n[可选：生成模型]")
     image = env.get("IMAGE_PROVIDER") or (f"OpenAI 兼容接口（{env.get('IMAGE_MODEL', 'gpt-image-1')}）" if env.get("IMAGE_API_KEY") else None)
-    report(OK if image else WARN, f"图片模型：{image or '未配置'}", None if image else "只有生成模拟商品 / 模特的工具需要，见 docs/generation.md")
+    report(OK if image else WARN, f"图片模型：{image or '未配置'}", None if image else "只有生成模拟商品 / 模特的工具需要，见 docs/zh-CN/generation.md")
     video = env.get("VIDEO_PROVIDER")
-    report(OK if video else WARN, f"视频模型：{video or '未配置'}", None if video else "只有转身视频需要，见 docs/generation.md")
+    report(OK if video else WARN, f"视频模型：{video or '未配置'}", None if video else "只有转身视频需要，见 docs/zh-CN/generation.md")
 
     print("\n[磁盘]")
     free_gb = shutil.disk_usage(ROOT).free / 1024**3

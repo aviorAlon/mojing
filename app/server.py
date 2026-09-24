@@ -538,7 +538,7 @@ async def tryon_stream(req: TryOnReq):
     return StreamingResponse(lines(), media_type="application/x-ndjson")
 
 
-# ---------- turnaround video (user-configured provider, see docs/generation.md) ----------
+# ---------- turnaround video (user-configured provider, see docs/en/generation.md) ----------
 
 _video = {}
 
